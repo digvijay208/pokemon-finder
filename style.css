@@ -1,0 +1,60 @@
+body{
+    background-color: #2d2839;
+    text-align: center;
+    flex: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    border-radius: 15px;
+     width: 300px; /* Adjust as needed */
+     height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: rgb(11, 11, 11);
+    border: none;
+}
+
+.pokemon-card {
+  background: rgb(99, 174, 225);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 113px auto 50px;
+  width: fit-content;
+  box-shadow: 59px 4px 15px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #a7b3e8 0%, #39264d 100%);
+}
+
+.specs-card {
+  background: #30a7d7;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  box-shadow: 59px 4px 15px rgba(0,0,0,0.1);
+  color: #090909;
+  text-align: left;
+}
+
+img{
+  display: block;
+  width: 500px;
+  height: 500px;
+}
+
+h1{
+    color: rgb(201, 198, 227);
+}
+
+
+button{
+    background-color: #5fb4dd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin-left: 15px;
+}

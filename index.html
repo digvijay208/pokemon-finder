@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pockemon Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pockemon.find</h1>
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon Name....">
+    <button onclick="fetchData()">Fetch Pockemon</button><br>
+
+    <div class="pokemon-card" id="pokemonCard" style="display: none;">
+        <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+    </div>
+    <div class="specs-card" id="specsCard" style="display: none;">
+        <h3 id="pokemonName"></h3>
+        <p><strong>Height:</strong> <span id="pokemonHeight"></span></p>
+        <p><strong>Weight:</strong> <span id="pokemonWeight"></span></p>
+        <p><strong>Type:</strong> <span id="pokemonType"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
