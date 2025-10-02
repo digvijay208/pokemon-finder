@@ -43,6 +43,22 @@ img{
   height: 500px;
 }
 
+@media (max-width: 768px) {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .pokemon-card {
+        margin: 50px auto 30px;
+        padding: 20px;
+    }
+    
+    .specs-card {
+        width: 250px;
+    }
+}
+
 h1{
     color: rgb(201, 198, 227);
 }
@@ -57,4 +73,17 @@ button{
     border-radius: 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     margin-left: 15px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    input {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
