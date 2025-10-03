@@ -37,6 +37,11 @@ input{
   text-align: left;
 }
 
+.specs-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 59px 14px 25px rgba(0,0,0,0.2);
+}
+
 img{
   display: block;
   width: 500px;
@@ -76,6 +81,13 @@ button{
     border: none;
 }
 
+button:hover{
+    background: linear-gradient(135deg, #30a7d7 0%, #5fb4dd 100%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
 @media (max-width: 768px) {
     input {
         width: 250px;
@@ -87,3 +99,5 @@ button{
         margin-top: 10px;
     }
 }
+
+
